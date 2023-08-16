@@ -1,6 +1,6 @@
 # [ICCV23] MixCycle: Mixup Assisted Semi-Supervised 3D Single Object Tracking witd Cycle Consistency
 
-**[[Paper]](https://arxiv.org/abs/2303.09219) / [[Training]](./readme.md###Training)  / [[Testing]](./readme.md###Testing)**
+**[[Paper]](https://arxiv.org/abs/2303.09219) / [[Training]](./README.md#training)  / [[Testing]](./README.md#testing)**
 
 This repository is the official release code for our ICCV23 paper MixCycle.
 
@@ -10,7 +10,7 @@ We propose **the first semi-supervised approach to 3D Single Object Tracking**. 
 <img src="https://cdn.jsdelivr.net/gh/Mumuqiao/pictures/Image/MixCycle_pipeline.png" width="800"/>
 </p>
 
-<table border="1">
+<table border="0", style="border-collapse: collapse;">
   <tr>
     <td><img src="./figures/Car_CYCLEBAT_Tracking.gif"/></td>
     <td><img src="./figures/Pedes_CYCLEBAT_Tracking.gif"/></td>
