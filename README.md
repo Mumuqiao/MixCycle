@@ -1,6 +1,6 @@
 # [ICCV23] MixCycle: Mixup Assisted Semi-Supervised 3D Single Object Tracking witd Cycle Consistency
 
-**[[Paper]](https://arxiv.org/abs/2303.09219) / [[Training]](./README.md#training)  / [[Testing]](./README.md#testing)**
+**[[Paper]](https://arxiv.org/abs/2303.09219) / [[Training]](#training)  / [[Testing]](#testing)**
 
 This repository is the official release code for our ICCV23 paper MixCycle.
 
@@ -49,7 +49,7 @@ pip install -r requirement.txt
 
 ## Quick Start
 
-### Training
+### <p id="training">Training</p>
 
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 python main.py  --cfg cfgs/CYCBAT_Car.yaml  --batch_size 64 --epoch 200 --logdir ./results --preloading
@@ -65,7 +65,7 @@ tensorboard --logdir=./ --port=6006
 
 By default, the trainer runs a full evaluation on the full test split after training every epoch. You can set `--check_val_every_n_epoch` to a larger number to speed up the training. The `--preloading` flag is used to preload the training samples into the memory to save traning time. Remove this flag if you don't have enough memory.
 
-### Testing
+### <p id="testing">Testing</p>
 
 To test a trained model, specify the checkpoint location with `--checkpoint` argument and send the `--test` flag to the command. We provide the trained models in [*pretrained_models*](./pretrained_models).
 
