@@ -73,7 +73,7 @@ To test a trained model, specify the checkpoint location with `--checkpoint` arg
 python main.py  --cfg cfgs/CYCBAT_Car.yaml  --checkpoint /path/to/checkpoint/xxx.ckpt --test
 ```
 
-The reported results of MixCycle checkpoints are produced on 3090 GPUs. Due to the precision issues, there could be minor differences if you test them with other GPUs.
+The reported results of MixCycle checkpoints are produced on 3090 GPUs. Due to the precision issues, there could be minor differences when using different machines.
 
 ## Datasets
 
