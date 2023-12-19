@@ -291,7 +291,7 @@ def Cycle_processing(data, config):
     if not (config.mix_up_search or config.mix_up_template):
         mix_rate = np.ones((2),dtype=np.float32)
     #contral mix up in each frame !!!!! be careful !!!!!!!
-    mix_rate[0] = 1.0
+    mix_rate[1] = 1.0
     #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     #mix_up search area
     if config.mix_up_search:
