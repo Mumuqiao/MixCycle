@@ -52,7 +52,7 @@ pip install -r requirement.txt
 ### <p id="training">Training</p>
 
 ```bash
-CUDA_VISIBLE_DEVICES=0,1 python main.py  --cfg cfgs/CYCBAT_Car.yaml  --batch_size 64 --epoch 200 --logdir ./results --preloading
+CUDA_VISIBLE_DEVICES=0,1 python main.py  --cfg cfgs/CYCBAT_Car.yaml  --batch_size 64 --epoch 200 --log_dir ./results --preloading
 ```
 
 **Note:** Before running the code, you will need to edit the `.yaml` file under the [*cfgs*](./cfgs) by setting the `path` argument as the correct root of the dataset.

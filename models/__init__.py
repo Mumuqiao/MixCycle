@@ -13,7 +13,7 @@ import importlib
 #     module = loader.find_module(module_name).load_module(module_name)
 
 
-from models import p2b, bat,mlvsnet,m2track,cyclebat,contrackv2,cyclemlvs,cyclep2b
+from models import p2b, bat,mlvsnet,m2track,cyclebat,cyclemlvs,cyclep2b
 
 
 def get_model(name):
